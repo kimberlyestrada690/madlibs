@@ -14,7 +14,7 @@ function generateMadlib() {
   story = story.replace("PLACE", inputValue);
   
   inputValue = document.getElementById("adjective").value;
-  story = story.replace("ADJECTIVE"), inputValue);
+  story = story.replace("ADJECTIVE", inputValue);
   
   document.getElementById("result").innerHTML = story;
 }
